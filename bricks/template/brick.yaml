@@ -1,4 +1,4 @@
-name: example
+name: template
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -29,7 +29,18 @@ vars:
   project_name:
     type: string
     prompt: What's your project name?
+
   with_firebase:
     type: boolean
     default: false
     prompt: Do you want to add firebase?
+
+  with_remote_config:
+    type: boolean
+    default: false
+    prompt: Do you want to add remote config?
+
+  with_cloud_messaging:
+    type: boolean
+    default: false
+    prompt: Do you want to add cloud messaging?

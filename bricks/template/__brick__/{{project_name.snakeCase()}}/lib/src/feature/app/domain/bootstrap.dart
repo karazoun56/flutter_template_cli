@@ -59,6 +59,10 @@ final class Bootstrap {
     );
     {{/with_firebase}}
 
+    {{#with_cloud_messaging}}
+    await NotificationManager.instance.init();
+    {{/with_cloud_messaging}}
+
     return container;
   }
 

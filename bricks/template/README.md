@@ -1,4 +1,24 @@
-# example
+# template
+
+## installing mason_cli
+
+-- dart pub global activate mason_cli
+
+Then, we can use the get command to install all bricks defined in the nearest parent mason.yaml.
+
+-- mason get
+
+We can list all installed bricks using the list (ls for short) command.
+
+-- mason ls
+
+## Custom Output Directory
+
+By default mason make will generate the output in the current working directory but a custom output directory can be specified via the -o option:
+
+-- mason make template -o your path
+
+#####
 
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 
