@@ -1,1 +1,1 @@
-{"bricks":{"example":{"path":"bricks/example"}}}
+{"bricks":{"example":{"git":{"url":"https://github.com/karazoun/flutter_template_cli.git","path":"bricks/example","ref":"ea80341d80a4ee841df7fead3faa462eb52499e8"}}}}

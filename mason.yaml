@@ -6,11 +6,11 @@ bricks:
   # Uncomment the following line to import the "hello" brick from BrickHub.
   hello: 0.1.0+1
 
-  example:
-    path: bricks/example
+  # example:
+  #   path: bricks/example
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
-  # widget:
-  #   git:
-  #     url: https://github.com/felangel/mason.git
-  #     path: bricks/widget
+  example:
+    git:
+      url: https://github.com/karazoun/flutter_template_cli.git
+      path: bricks/example
